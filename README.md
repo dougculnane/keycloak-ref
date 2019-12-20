@@ -2,9 +2,9 @@
 
 ## The Problem: isConvenient() != secure && MyImpl != robust
 
-The most challenging things to manage in computers systems is oftern the users of those system... As a user of many computing systems manageing user accounts to thoses systems is also a challenge. So how can we make access convenient as well and secure and robust?
+The most challenging thing to manage in computers systems is oftern the users of those system... As a user of many computing systems manageing user accounts to thoses systems is also a challenge. So how can we make access convenient as well and secure and robust?
 
-The computing standards that solve this problem best seams to be OAuth and OpenID Connect (OIDC).  Programming these standards and making them secure against the creative attacks users and annonimous users develop is a challenge.  This is one of those challenges that grows at a rate faster than knoweldge aquired of it.
+The computing standards that solve this problem best seams to be OAuth and OpenID Connect (OIDC).  Programming these standards and making them secure against the creative attacks users and annonimous users develop is a continuous struggle.  The task and its complexity grows at a rate faster than knoweldge and experiance aquired about it.
 
 ## Solution: Keycloak
 
@@ -24,7 +24,7 @@ At openFORCE we like code so here is an example Jhipster monolithic web applicia
 
 
 ```bash
-git clone
+git clone https://github.com/dougculnane/keycloak-ref.git
 cd keycloak_ref
 mvn clean install
 cd jhipster_webapp
@@ -34,6 +34,5 @@ mvn
 
 You can now browse http://localhost:8080/ -> register and login.
 
-We have glossed over a few details ( which you will find in the code ;-) ) but this is the foundation of a Single Sign On multi Host and Realm Role based user management security system that has many configuration features like "Brute Force Detection", "Recaptcha", "Password Policy", "Email verification", "Forgot / reset Password", "One Time Password 2 factor authentication"....
-
+We have glossed over a few details ( which you will find in the code ;-) ) but this is the foundation of a Single Sign On, Multi-host, Multi-realm, Role based, User management, Security system that has many configuration features like "Brute Force Detection", "Recaptcha", "Password Policy", "Email verification", "Forgot / reset Password", "One Time Password 2 factor authentication", etc....
 
