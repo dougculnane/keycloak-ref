@@ -28,7 +28,7 @@ git clone https://github.com/dougculnane/keycloak-ref.git
 cd keycloak_ref
 mvn clean install
 cd jhipster_webapp
-docker-compose -f src/main/docker/app.yml up -d
+docker-compose -f src/main/docker/keycloak.yml up -d
 mvn
 ```
 
