@@ -104,6 +104,7 @@ public class UserAdapter extends AbstractUserAdapterFederatedStorage {
 
 	@Override
 	public void setEmail(String email) {
+		super.setEmail(email);
 		user.setEmail(email);
 	}
 
@@ -114,6 +115,7 @@ public class UserAdapter extends AbstractUserAdapterFederatedStorage {
 
 	@Override
 	public void setFirstName(String firstName) {
+		super.setFirstName(firstName);
 		user.setFirstName(firstName);
 	}
 
@@ -124,6 +126,7 @@ public class UserAdapter extends AbstractUserAdapterFederatedStorage {
 
 	@Override
 	public void setLastName(String lastName) {
+		super.setLastName(lastName);
 		user.setLastName(lastName);
 	}
 
